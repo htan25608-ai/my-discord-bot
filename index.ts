@@ -102,22 +102,5 @@ app.use((req, res, next) => {
     },
   );
 })();
-{
-  "name": "gitobot-music-ts",
-  "version": "1.0.0",
-  "main": "index.ts",
-  "scripts": {
-    "start": "ts-node index.ts"
-  },
-  "dependencies": {
-    "discord.js": "^14.13.0",
-    "distube": "^4.1.1",
-    "@distube/ytdl-core": "latest",
-    "@discordjs/voice": "latest",
-    "@discordjs/opus": "latest",
-    "ffmpeg-static": "latest",
-    "libsodium-wrappers": "latest",
-    "ts-node": "latest",
-    "typescript": "latest"
-  }
-}
+
+
