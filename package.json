@@ -1,9 +1,11 @@
 {
-  "name": "gitobot-music-ts",
+  "name": "gitobot-music",
   "version": "1.0.0",
+  "description": "",
   "main": "index.ts",
   "scripts": {
-    "start": "ts-node index.ts"
+    "start": "ts-node index.ts",
+    "build": "npm install"
   },
   "dependencies": {
     "discord.js": "^14.13.0",
